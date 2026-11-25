@@ -16,15 +16,15 @@ Live: https://youdata.github.io/xuanzang-journey/
 - **导览**：▶ Play 依行程顺序看 16 处，再看四块题签。
 
 The relief is read from [world-tiles-earth](https://github.com/youdata/world-tiles-earth) (`../world-tiles-earth/world-relief/`),
-so this repository holds only the page (`index.html`, the reader and its plugins inside it) and its two fonts, trimmed to the
-characters on the page (`fonts/`).
+so this repository holds only the page (`index.html`, the reader and its plugins inside it). The lettering in the two brush
+faces is drawn as glyph outlines (`outline_fonts.mjs`, run by `build_map.py`), so no font files are shipped.
 
 ## How it is made
 
 From `infographic-examples/xuanzang-journey/` (`build_map.py`, `station_notes.json`, `tour.json`, `texts/`), with rx (`~/rx-cli`):
 
 ```sh
-python3 build_map.py && python3 check_notes.py        # → xuanzang-map.json; every quote checked against texts/
+python3 build_map.py && python3 check_notes.py        # → xuanzang-map.json (brush faces as outlines); every quote checked against texts/
 rx export xuanzang-map.json --out site --app /rx-graphic-editor/web/index.html --canvas --lock-layers \
   --tiles dir --tile-base world-relief=../world-tiles-earth/
 rx publish site --to github:youdata/xuanzang-journey --yes

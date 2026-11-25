@@ -15,7 +15,7 @@ It keeps its own terms; our licences do not cover it.
 - **Land, coast and lakes** — [Natural Earth](https://www.naturalearthdata.com/), 10 m; public domain.
 - **Elevations** along the route — sampled from the [Terrain Tiles on AWS](https://registry.opendata.aws/terrain-tiles/) (Mapzen/Tilezen); their sources and attributions: [joerd](https://github.com/tilezen/joerd/blob/master/docs/attribution.md).
 - **Quotations** — 《大唐西域记》 (玄奘 and 辩机, 646) and 《大唐大慈恩寺三藏法师传》 (慧立 and 彦悰, 688), in the public domain; from the transcriptions on [Wikisource](https://zh.wikisource.org/), shown in simplified characters.
-- **Fonts** — SentyZHAO 新蒂赵孟頫 (© Wang Wei, Senty Font and Calligraphy Workshop, 2014, all rights reserved) and 書體坊顏體 (© SCF 2008) in `fonts/`, trimmed to the characters on the page. They are not ours and are not covered by this licence; they keep their makers' terms.
+- **Lettering in two brush faces** — the titles, station names and panel headings set in SentyZHAO 新蒂赵孟頫 (© Wang Wei, Senty Font and Calligraphy Workshop, 2014) and 書體坊顏體 (© SCF 2008) are drawn into the page as outlines of their glyphs; neither font file is in this repository. The faces themselves are their makers' and keep their terms.
 
 The route between stations and the identifications of the old names follow 季羡林等《大唐西域记校注》 (中华书局, 1985); the line is a sketch, not a survey.
 
